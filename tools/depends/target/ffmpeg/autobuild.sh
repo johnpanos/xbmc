@@ -164,6 +164,7 @@ CFLAGS="$CFLAGS" CXXFLAGS="$CXXFLAGS" LDFLAGS="$LDFLAGS" \
 	--enable-libdav1d \
 	--disable-mipsdsp \
 	--disable-mipsdspr2 \
+	--enable-nvmpi \
         ${FLAGS}
 
 make -j ${BUILDTHREADS}
